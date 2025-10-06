@@ -89,7 +89,7 @@ This project uses Vite as the dev server. The correct command to start the app i
 
 1. Clone the repo and switch to the working branch:
 
-   git clone < your-repo-url >
+   git clone < repo-url >
    
    cd inf-651-quiz-game-app
 
@@ -105,6 +105,7 @@ This project uses Vite as the dev server. The correct command to start the app i
 Notes:
 
 - Vite typically serves the dev app on port 5173. If `http://localhost:3000` is mentioned elsewhere, prefer the terminal output from `npm run dev` to know the exact URL.
+  
 - If you run into issues installing dependencies, removing `node_modules` and reinstalling (`rm -rf node_modules package-lock.json && npm install`) often helps.
 
 ## Contributing / Workflow tips
